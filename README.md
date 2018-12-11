@@ -1,7 +1,8 @@
 	# bool - yes or no ( true or false )
 	# int, string, bool, object
 	# ints, strings, bools, objects
-
+	# none
+	
 	"로스트 아크" = { 
 		"아이템" = { }
 		"영웅" = { }
