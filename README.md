@@ -1,4 +1,3 @@
-	1
 	# bool - yes or no ( true or false )
 	# int, string, bool, object
 	# ints, strings, bools, objects
