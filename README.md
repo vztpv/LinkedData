@@ -52,3 +52,35 @@
 			#
 		}
 	}
+
+	"A" = { } # empty data?
+	"B"@"A" = { 
+		"a" = 3
+		"b" = 4
+	}
+	"E"@"B" = {
+		"b" = 5
+	}
+	"F"@"B"@"E" = { # => "F"@"E"? or error!
+
+	}
+
+	"a"@int = { }
+	"b"@int = { }
+	"d"@ints = { }
+
+	"namespace" = {
+		"a"@int = { }
+	}
+
+	"c_a"@int = 3
+	"c_b"@const@int = 5
+
+	"X" = { 
+		"namespace"-"a" = 1
+		"a" = 5
+		"b" = "c_b"
+		"a" = "c_a"
+		"d" = { 4 5 6 7 }
+	}
+
